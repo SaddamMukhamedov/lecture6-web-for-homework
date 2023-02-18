@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+content-type: text/html
+server: IntelliJ IDEA 2022.2.3
+date: Sat, 18 Feb 2023 15:34:17 GMT
+x-frame-options: SameOrigin
+X-Content-Type-Options: nosniff
+x-xss-protection: 1; mode=block
+accept-ranges: bytes
+cache-control: no-cache
+last-modified: Sat, 18 Feb 2023 15:16:50 GMT
+content-length: 102
+
+body:
+
+<li>Нагадування 1</li>
+<li>Нагадування 2</li>
+<li>Нагадування 3</li>

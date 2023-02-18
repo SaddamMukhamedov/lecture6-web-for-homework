@@ -21,6 +21,16 @@ document.getElementById('addListItem').addEventListener('click', () => {
   }
 })
 
+document.getElementById('removeList').addEventListener('click', () => {
+    let myList = document.getElementById('myList');
+    while (myList.firstChild) {
+        myList.removeChild(myList.firstChild);
+    }
+})
+    
+  
+
+
 // Завантажуємо з сервера файл і додаємо його зміст до списку
 document.getElementById('loadItems').addEventListener('click', () => {
   const xhttp = new XMLHttpRequest();
